@@ -125,20 +125,20 @@
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  /* opacity: 0.4; */
 }
 .section3 h1{
+  margin-top: -20px;
   color: white;
   font-size: 40px;
   margin-left: 34%;
   font-family: monospace;
   border-bottom: 5px solid rgb(208, 126, 38);
-  padding-bottom: 12px;
+  padding-bottom: 8px;
   width: 29%;
 }
 .section3 p{
   color: white;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 35%;
   font-size: 20px;
   font-family:cursive;
@@ -155,16 +155,16 @@
 .menu .firstDish{
   border: 2px solid white;
   width: 28%;
-  height: 60vh;
+  height: 59vh;
   border-radius: 30px;
   margin-right: 10px;
 }
 .menu .firstDish .subdiv{
   background-color: white;
   width: 91%;
-  height: 53.5vh;
+  height: 54vh;
   margin-left: 16px;
-  margin-top: 18px;
+  margin-top: 12px;
   border-radius: 30px;
 }
 .menu .firstDish img{
@@ -175,30 +175,464 @@
   border-radius: 30px;
 }
 .menu .firstDish p{
+  width: 55%;
   color: black;
   font-size: 20px;
   font-family: sans-serif;
-  margin-right:120px;
   margin-top: 10px;
-  background-color: rgb(208, 126, 38);
-  position: relative;
-
+  background-color: rgb(220, 199, 104);
+  margin-left: 75px;
+  padding: 5px;
 }
 .menu .secondDish{
   border: 2px solid white;
-  width: 30%;
-  height: 50vh;
+  width: 28%;
+  height: 59vh;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.menu .secondDish .subdiv {
+  background-color: white;
+  width: 91%;
+  height: 54vh;
+  margin-left: 16px;
+  margin-top: 12px;
+  border-radius: 30px;
 }
 .menu .secondDish img{
-  width: 100%;
-  padding: 20px;
+  width: 94%;
+  height: 40vh;
+  margin-left: 10px;
+  margin-top: 8px;
+  border-radius: 30px;
+}
+.menu .secondDish p{
+  width: 55%;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 10px;
+  background-color: rgb(220, 199, 104);
+  margin-left: 75px;
+  padding: 5px; 
 }
 .menu .thirdDish{
   border: 2px solid white;
-  width: 30%;
-  height: 50vh;
+  width: 28%;
+  height: 59vh;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.menu .thirdDish .subdiv{
+  background-color: white;
+  width: 91%;
+  height: 54vh;
+  margin-left: 16px;
+  margin-top: 12px;
+  border-radius: 30px;
 }
 .menu .thirdDish img{
+  width: 94%;
+  height: 40vh;
+  margin-left: 10px;
+  margin-top: 8px;
+  border-radius: 30px;
+}
+.menu .thirdDish p{
+  width: 55%;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 10px;
+  background-color: rgb(220, 199, 104);
+  margin-left: 75px;
+  padding: 5px; 
+}
+.section4{
   width: 100%;
-  padding: 20px;
+  height: 50vh;
+  background-color: black;
+}
+.section4 h2{
+  position: relative;
+  color: grey;
+  top: 50px;
+  margin-left: 40%;
+}
+.section4 h1{
+  color:rgb(220, 199, 104) ;
+  margin-left: 34%;
+  margin-top: 6%;
+  font-size: 38px;
+  font-family: sans-serif;
+  border-bottom: 4px solid rgb(220, 199, 104);
+  width: 22.6%;
+}
+.section4 button{
+  padding: 17px 8px;
+  background-color: rgb(220, 199, 104);
+  border: 2px solid rgb(220,199,104);
+  margin-left: 40%;
+  margin-top: 30px;
+  font-weight: 480;
+  font-size: 17px;
+}
+.section5{
+  width: 100%;
+  background-image: url(images/discount_bg.jpg);
+  padding: 80px 20px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.section5 h1{
+  color: white;
+  font-size: 40px;
+  margin-left: 37%;
+  margin-top: 10px;
+  font-family: monospace;
+  border-bottom: 3px solid rgb(220,199,104);
+  padding-bottom: 12px;
+  width: 28%;
+  font-family: sans-serif;
+}
+.discounts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  margin-top: 70px;
+}
+.discounts .firstimg img{
+  width: 85%;
+}
+
+.discounts .secondimg img{
+  width: 85%;
+}
+.discounts .thirdimg img{
+  width: 85%;
+}
+.section6{
+  width: 100%;
+  height: 94vh;
+  background-color: black;
+}
+.section6 h1{
+  color: white;
+  font-size: 40px;
+  margin-left: 42%;
+  top: 60px;
+  font-family: monospace;
+  padding-bottom: 12px;
+  font-family: sans-serif;
+  position: relative;
+}
+.section6 .bottom_design{
+  margin-top: 65px;
+  margin-left: 27%;
+}
+.section6 .images{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 40px;
+}
+.section6 .img1{
+  width: 20%;
+  padding: 10px;
+  margin-left: 27px;
+  border: 1px solid white;
+}
+.section6 .images .img1 img{
+  width: 96%;
+  margin-left: 5px;
+  margin-top: 2px;
+  border: 1px solid white;
+}
+.section6 .img2{
+  width: 20%;
+  padding: 10px;
+  margin-left: 20px;
+  border: 1px solid white;
+}
+.section6 .images .img2 img{
+  width: 96%;
+  margin-left: 4px;
+  border: 1px solid white;
+  margin-top: 2px;
+}
+.section6 .img3{
+  width: 20%;
+  padding: 10px;
+  margin-left: 20px;
+  border: 1px solid white;
+}
+.section6 .images .img3 img{
+  width: 96%;
+  margin-top: 2px;
+  margin-left: 4px;
+  border: 1px solid white;
+}
+.section6 .img4{
+  width: 20%;
+  padding: 10px;
+  margin-left: 20px;
+  border: 1px solid white;
+}
+.section6 .images .img4 img{
+  width: 96%;
+  margin-left: 4px;
+  margin-top: 2px;
+  border: 1px solid white;
+}
+.section7{
+  width: 100%;
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/back3.jpg);
+  padding: 80px 20px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.section7 img{
+  width: 25%;
+  margin-left: 35%;
+  margin-top: 40px;
+}
+.section7 h1{
+ color: rgb(220,199,104); 
+ font-size: 35px;
+ margin-left: 40%;
+ font-weight: 200;
+ margin-top: 30px;
+}
+.section7 pre{
+  color: white;
+  font-size: 32px;
+  margin-left: 3%;
+  margin-top: 40px;  
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.section8{
+  width: 100%;
+  height: 90vh;
+  background-color: black;
+}
+.section8 h1{
+  color: white;
+  position: relative;
+  top: 60px;
+  margin-left: 37%;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.section8 .images{
+  display: flex;
+  align-items: center;
+  margin-top:140px;
+  width: 90%;
+  margin-left: 70px;
+  justify-content: space-between;
+}
+.section8 .hyd{
+  width: 22%;
+} 
+.hyd img{
+  width: 100%;
+  border-radius: 30px;
+  height: 40vh;
+}
+.hyd i{
+  font-size: 28px;
+  margin-top: 8px;
+  display: inline-block;
+  margin-left: 50px;
+  color: red;
+}
+.hyd p{
+  display: inline-block;
+  color: rgb(220,199,104);
+  font-size: 24px;
+  margin-left: 10px;
+}
+.section8 .dodarya{
+  width: 22%;
+}
+.section8 .dodarya img{
+  width: 100%;
+  border-radius: 30px;
+  height: 40vh;
+}
+.dodarya i{
+  font-size: 28px;
+  margin-top: 8px;
+  display: inline-block;
+  margin-left: 50px;
+  color: red;
+}
+.dodarya p{
+  display: inline-block;
+  color: rgb(220,199,104);
+  font-size: 24px;
+  margin-left: 10px;
+}
+.section8 .highway{
+  width: 22%;
+}
+.section8 .highway img{
+  width: 100%;
+  border-radius: 30px;
+  height: 40vh;
+}
+.highway i{
+  font-size: 28px;
+  margin-top: 8px;
+  display: inline-block;
+  margin-left: 50px;
+  color: red;
+}
+.highway p{
+  display: inline-block;
+  color: rgb(220,199,104);
+  font-size: 24px;
+  margin-left: 10px;
+}
+.section8 .milat{
+  width: 22%;
+}
+.section8 .milat img{
+  width: 100%;
+  border-radius: 30px;
+  height: 40vh;
+}
+.milat i{
+  font-size: 28px;
+  margin-top: 8px;
+  display: inline-block;
+  margin-left: 50px;
+  color: red;
+}
+.milat p{
+  display: inline-block;
+  color: rgb(220,199,104);
+  font-size: 24px;
+  margin-left: 10px;
+}
+.section9{
+  width: 100%;
+  height: 70vh;
+  width: 100%;
+  background-image: url(images/sac1.jpg);
+  padding: 80px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom:5px solid rgb(174, 172, 164);
+}
+.section9 .divisions{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-left: 30px;
+}
+.section9 .divisions .about{
+ width: 25%;
+ /* border: 2px solid white; */
+ height: 45vh;
+}
+.section9 .divisions .about h1{
+  color: rgb(220,199,104);
+}
+.section9 .divisions .about p{
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.section9 .divisions .about button{
+  margin-top: 20px;
+  padding: 7px 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 4px;
+}
+.section9 .divisions .about i{
+ color: white;
+ border: 1px solid white;
+ border-radius:50px ;
+ font-size: 15px;
+ padding: 5px;
+}
+.section9 .contact{
+  width: 25%;
+ height: 45vh;
+ margin-left: 40px;
+}
+.section9 .contact h1{
+  color: rgb(220,199,104);
+}
+.section9 .contact i{
+  margin-top: 20px;
+  color: rgb(220,199,104);
+  display: inline-block;
+}
+.section9 .contact p{
+  display: inline-block;
+  color: white;
+}
+.section9 .worktime{
+  width: 25%;
+  height: 45vh;
+}
+.section9 .worktime h1{
+  color: rgb(220,199,104);
+}
+.section9 .worktime p{
+  color: white;
+  margin-top: 20px;
+}
+.section9 .worktime span{
+  color: rgb(220,199,104);
+}
+.section9 .worktime button{
+  padding: 15px 10px ;
+  margin-top: 12px;
+  background-color: rgb(220,199,104);
+  border: none;
+  font-weight: 600;
+}
+.section9 .locations{
+  width: 25%;
+  height: 45vh;
+  margin-left: 40px;
+}
+.section9 .locations h1{
+  color: rgb(220,199,104);
+}
+.section9 ul{
+  margin-top: 30px;
+  list-style: none;
+}
+.section9 li {
+  color:rgb(220,199,104);
+}
+.sec10{
+  background-color: rgb(44, 42, 42);
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+}
+.sec10 p{
+  position: relative;
+  top: 20px;
+  color: white;
+  margin-left: 35%;
+  font-size: 16px;
+}
+.sec10 span{
+  color: rgb(220,199,104);
 }
